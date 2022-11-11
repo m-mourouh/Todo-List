@@ -34,7 +34,7 @@
         </div>
       </div>
     </div>
-    <p v-if="todos.length === 0">Empty list, please enter some tasks</p>
+    <p v-if="todos.length === 0" class="mt-3">No Task</p>
     <button
       class="btn btn-danger mt-4"
       v-if="todos.length !== 0"
